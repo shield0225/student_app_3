@@ -10,7 +10,7 @@ const isProduction = process.env.NODE_ENV == "production";
 
 const config = {
   output: {
-    publicPath: "http://localhost:3004/",
+    publicPath: "https://main.d1ps6fjlhrdpyo.amplifyapp.com/",
   },
 
   resolve: {
