@@ -5,7 +5,7 @@ import "./index.css";
 export default function Header() {
     return (
     <Container className="header-container">
-        <h1>Student App 2</h1>
+        <h1>Student App 3</h1>
     </Container>
     )
 };

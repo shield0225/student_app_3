@@ -10,7 +10,7 @@ const isProduction = process.env.NODE_ENV == "production";
 
 const config = {
   output: {
-    publicPath: "http://localhost:3004/",
+    publicPath: "http://localhost:3005/",
   },
 
   resolve: {
@@ -18,7 +18,7 @@ const config = {
   },
 
   devServer: {
-    port: 3004,
+    port: 3005,
     historyApiFallback: true,
   },
 
@@ -52,7 +52,7 @@ const config = {
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "student_app_2",
+      name: "student_app_3",
       filename: "remoteEntry.js",
       remotes: {
         student_app_1:

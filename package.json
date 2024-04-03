@@ -1,5 +1,5 @@
 {
-  "name": "student_app_2",
+  "name": "student_app_3",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --mode production",
